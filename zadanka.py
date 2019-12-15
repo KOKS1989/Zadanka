@@ -27,7 +27,7 @@ def zad11(kod1, kod2):
 ## wyjście: [1,5,6,8,10]
 
 def zad2(l, n):
-    return list(set(range(n))-set(l))
+    return list(set(range(1,n+1))-set(l))
 
 ## ZADANIE 3. NALEŻY WYGENEROWAĆ LISTĘ LICZB OD 2 DO 5.5 ZE SKOKIEM CO 0.5,
 ## DANE WYNIKOWE MUSZĄ BYĆ TYPU DECIMAL.
@@ -39,6 +39,12 @@ def zad3():
 def zad31():
     return list(map(Decimal,np.arange(2,6,0.5)))
 
+
+print(zad1("79-900", "80-155"))
+print(zad11("79-900", "80-155"))
+print(zad2([2,3,7,4,9], 10))
+print(zad3())
+print(zad31())
 
 ##import timeit
 ##timeit.timeit(f'x = [Decimal(20 + x * 5)/10 for x in range(8)]', setup='from decimal import Decimal')
