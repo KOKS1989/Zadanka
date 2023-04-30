@@ -31,6 +31,7 @@ def zad2(l, n):
 
 ## ZADANIE 3. NALEŻY WYGENEROWAĆ LISTĘ LICZB OD 2 DO 5.5 ZE SKOKIEM CO 0.5,
 ## DANE WYNIKOWE MUSZĄ BYĆ TYPU DECIMAL.
+## test
 
 def zad3():
     return [Decimal(20 + x * 5)/10 for x in range(8)] 
